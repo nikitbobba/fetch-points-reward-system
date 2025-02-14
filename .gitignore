@@ -1,0 +1,59 @@
+# Python Files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+*.egg-info/
+*.dist-info/
+
+# Environment Variables (Security)
+.env
+.env.local
+.env.production
+.env.development
+
+# Build and Distribution
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Dependency Management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest & Testing
+.coverage
+.cache/
+htmlcov/
+*.cover
+*.py,cover
+.tox/
+nosetests.xml
+coverage.xml
+pytest_cache/
+
+# Logs & Debugging
+logs/
+*.log
+debug.log
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+**/Dockerfile~
+**/docker-compose.yml~
+
+# Git & System Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
